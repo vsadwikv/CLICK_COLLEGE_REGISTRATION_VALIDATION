@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="66" viewBox="0 0 300 66">
+  <rect width="66" height="66" rx="16" fill="#FFFFFF"/>
+  <path d="M18 33 33 18 48 33 33 48Z" fill="#2359E8"/>
+  <text x="86" y="27" font-family="Arial, sans-serif" font-size="29" font-weight="bold" fill="#FFFFFF">Click College</text>
+  <text x="88" y="58" font-family="Arial, sans-serif" font-size="20" letter-spacing="4" fill="#DCE8FF">GLOBAL</text>
+</svg>

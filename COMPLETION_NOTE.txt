@@ -1,0 +1,9 @@
+Click College Global registration form deliverable
+
+The form does not use the novalidate attribute. Native required, email, minlength, and username pattern checks remain enabled. Invalid fields show clear, specific inline messages, and focus moves to the first invalid field.
+
+The responsive stylesheet follows the supplied brand palette, including ink #142C45, blue #2359E8, sky #DCE8FF, background #F4F7FC, muted text #61718B, and error red #B42332.
+
+The source files and README are in Src/. Validation is performed in the browser, and valid submission displays a local confirmation only. No account data is transmitted or stored.
+
+EVIDENCE/ contains excel sheet for validation_test_cases

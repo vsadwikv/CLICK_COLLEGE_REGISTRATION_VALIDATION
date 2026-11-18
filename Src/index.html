@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Create your Click College Global learning account">
+  <title>Create your account | Click College Global</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <section class="intro" aria-labelledby="intro-heading">
+      <div class="intro__inner">
+        <img class="intro__logo" src="assets/logo.svg" alt="Click College Global">
+        <p class="eyebrow">YOUR LEARNING STARTS HERE</p>
+        <h1 id="intro-heading">Grow your skills.<br>Shape what's next.</h1>
+        <p>Learn with practical courses and clear pathways.</p>
+        <div class="intro__benefits"><span>✓ Guided learning</span><span>✓ Flexible courses</span><span>✓ Progress tracking</span></div>
+      </div>
+    </section>
+    <section class="account" aria-labelledby="form-heading">
+      <div class="account__content">
+        <p class="account__kicker">CREATE ACCOUNT</p>
+        <h2 id="form-heading">Start your journey</h2>
+        <p class="account__subhead">Enter your details to create a learning profile.</p>
+        <form id="register-form" class="form" action="#" method="post">
+          <div class="form__group">
+            <label for="username">Username <span aria-hidden="true">*</span></label>
+            <input id="username" name="username" autocomplete="username" required minlength="3" maxlength="24" pattern="[A-Za-z0-9_]+" aria-describedby="username-hint username-error" placeholder="e.g. learner_01">
+            <p class="form__hint" id="username-hint">3–24 characters, letters, numbers or underscores.</p>
+            <p class="form__error" id="username-error" aria-live="polite"></p>
+          </div>
+          <div class="form__group">
+            <label for="email">Email address <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error" placeholder="you@example.com">
+            <p class="form__error" id="email-error" aria-live="polite"></p>
+          </div>
+          <div class="form__group form__group--last">
+            <label for="password">Password <span aria-hidden="true">*</span></label>
+            <input id="password" name="password" type="password" autocomplete="new-password" required minlength="8" aria-describedby="password-hint password-error" placeholder="Create a strong password">
+            <p class="form__hint" id="password-hint">At least 8 characters, including upper/lowercase and a number.</p>
+            <p class="form__error" id="password-error" aria-live="polite"></p>
+          </div>
+          <button class="form__submit" type="submit">Create account <span aria-hidden="true">→</span></button>
+          <div id="form-status" class="form__status" role="status" aria-live="polite"></div>
+        </form>
+        <p class="account__fineprint">Your details stay on this device.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
